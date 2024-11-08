@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8BC34A"
+    tools:ignore="ExtraText">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#8BC34A"
+        tools:context=".MountaineeringActivity">
+
+        <TextView
+            android:id="@+id/txtmount"
+            android:layout_width="219dp"
+            android:layout_height="44dp"
+            android:layout_marginTop="32dp"
+            android:fontFamily="@font/aclonica"
+            android:gravity="center"
+            android:text="Mountaineering"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txtminfo"
+            android:layout_width="409dp"
+            android:layout_height="234dp"
+            android:layout_marginTop="28dp"
+            android:fontFamily="@font/aclonica"
+            android:text="@string/mount"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.363"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtmount" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="319dp"
+            android:layout_height="304dp"
+            android:layout_marginTop="28dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtminfo"
+            app:srcCompat="@drawable/mmm" />
+
+        <Spinner
+            android:id="@+id/spinner2"
+            android:layout_width="333dp"
+            android:layout_height="58dp"
+            android:layout_marginTop="36dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.545"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+
+        <Button
+            android:id="@+id/btmount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36dp"
+            android:text="show"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/spinner2" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

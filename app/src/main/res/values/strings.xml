@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Outdoor Sphere</string>
+    <string name="info">Explore the great outdoors with confidence Discover amazing outdoor experiences</string>
+    <string name="hiking">In a constantly changing world, it has never been more important to find balance and a way to connect with nature. It\'s hardly any wonder then that hiking and trekking continue to grow in popularity. Whether you\'re looking for an easy hike that requires just a pair of decent shoes or a more challenging route that demands extra stamina, technique, and equipment, Outdooractive has you covered.</string>
+    <string name="cycle">One of the many great things about cycling is that it combines a means of getting around and exploring the world with maintaining fitness. It doesn\'t matter whether you like mountain biking, touring, gravel biking, or road cycling, the versatility and excitement of a bicycle are almost unlimited.</string>
+    <string name="mount">Mountaineering means adventure: Away from well-marked trails and comfortable benches at every turn, you\'re going high up with full body effort. Whether you\'re looking for a via ferrata, a high-altitude tour or alpine climbing - with Outdooractive you\'re sure to find exciting tours and valuable tips from the community. So get out of your comfort zone and up the mountain!</string>
+    <string name="winter">As soon as the first snowflakes fall, the landscape is transformed into a glittering, white winter wonderland. This is not only the starting signal for skiers and snowboarders who are on the slopes in the ski resorts, but also for cross-country skiers, ski tourers and snow tourers. Wonderful winter hikes or fast-paced sledding tours are an experience for the whole family. What are you most in the mood for? Discover the right winter tour for you at Outdooractive!</string>
+    <string name="running">Runners and skaters transform paths into personal fitness runways! The speed is in your own hands: from comfortable walking to a demanding trail run. And you don\'t need much equipment either: running shoes, skates, poles, a helmet – and off you go!</string>
+
+    <string-array name="options">
+        <item>Hiking</item>
+        <item>Cycling</item>
+        <item>Running</item>
+        <item>Mountaineering</item>
+        <item>Winter Sports</item>
+    </string-array>
+
+
+
+</resources>
