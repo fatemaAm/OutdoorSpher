@@ -36,11 +36,12 @@ public class CyclingActivity extends AppCompatActivity {
 
             Intent intente;
             switch (selectedType) {
+
                 case "BIKE RIDES":
                     intente = new Intent(CyclingActivity.this, BIKERIDESActivity.class);
                     break;
                 case "MOUNT BIKING":
-                    intente = new Intent(CyclingActivity.this, MOUNTBIKINGActivity.class);
+                    intente = new Intent(CyclingActivity.this, BIKERIDESActivity.class);
                     break;
                 default:
                     Toast.makeText(CyclingActivity.this, "Please select a valid activity.", Toast.LENGTH_SHORT).show();

@@ -58,6 +58,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.503"
             app:layout_constraintStart_toStartOf="parent"
+            android:fontFamily="@font/aclonica"
             app:layout_constraintTop_toBottomOf="@+id/imageView7" />
 
         <Button
@@ -65,6 +66,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="show"
+            android:fontFamily="@font/aclonica"
+            android:textColor="#8BC34A"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"

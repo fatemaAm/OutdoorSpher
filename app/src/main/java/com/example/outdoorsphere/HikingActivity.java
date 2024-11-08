@@ -48,7 +48,7 @@ public class HikingActivity extends AppCompatActivity {
                         intent = new Intent(HikingActivity.this, HikingRoutesActivity.class);
                         break;
                     case "Long-Distance Hiking":
-                        intent = new Intent(HikingActivity.this, LongDistanceHikingActivity.class);
+                        intent = new Intent(HikingActivity.this, HikingRoutesActivity.class);
                         break;
                     default:
                         // If the selected option doesn't match any case, show a message and return

@@ -15,16 +15,16 @@
 
         <TextView
             android:id="@+id/txttitle"
-            android:layout_width="405dp"
-            android:layout_height="140dp"
-            android:layout_marginTop="44dp"
+            android:layout_width="323dp"
+            android:layout_height="106dp"
+            android:layout_marginTop="36dp"
             android:fontFamily="@font/aclonica"
             android:gravity="center"
             android:text="@string/info"
             android:textSize="20sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintHorizontal_bias="0.494"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 

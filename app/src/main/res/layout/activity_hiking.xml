@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -50,7 +51,7 @@
             app:layout_constraintHorizontal_bias="0.503"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/txtinfohiking"
-            app:srcCompat="@drawable/variant" />
+            app:srcCompat="@drawable/hiking" />
 
         <Spinner
             android:id="@+id/spinner"
@@ -60,6 +61,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.503"
             app:layout_constraintStart_toStartOf="parent"
+            android:fontFamily="@font/aclonica"
             app:layout_constraintTop_toBottomOf="@+id/imghiking" />
 
         <Button
@@ -68,6 +70,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="36dp"
             android:text="show"
+            android:fontFamily="@font/aclonica"
+            android:textColor="#8BC34A"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.501"
             app:layout_constraintStart_toStartOf="parent"

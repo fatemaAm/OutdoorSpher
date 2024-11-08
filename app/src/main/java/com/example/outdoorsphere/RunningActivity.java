@@ -46,7 +46,7 @@ public class RunningActivity extends AppCompatActivity {
                         intentr = new Intent(RunningActivity.this, RUNNING.class);
                         break;
                     case "TRAIL RUNNING":
-                        intentr = new Intent(RunningActivity.this, TRAILRUNNING.class);
+                        intentr = new Intent(RunningActivity.this, RUNNING.class);
                         break;
                     default:
                         // If no match is found, show a message and return
@@ -61,6 +61,7 @@ public class RunningActivity extends AppCompatActivity {
                 }
             }
         });
+
 
         // Adjust insets for full screen layout
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {

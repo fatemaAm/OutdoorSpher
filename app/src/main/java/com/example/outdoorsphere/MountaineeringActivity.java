@@ -43,11 +43,11 @@ public class MountaineeringActivity extends AppCompatActivity {
 
                 // Choose activity based on spinner selection
                 switch (selectedType) {
-                    case "VIAFERRATA":
+                    case "VIA FERRATA":
                         intentM = new Intent(MountaineeringActivity.this, VIAFERRATA.class);
                         break;
-                    case "ALPINEROUTE":
-                        intentM = new Intent(MountaineeringActivity.this, ALPINEROUTE.class);
+                    case "ALPINE ROUTE":
+                        intentM = new Intent(MountaineeringActivity.this, VIAFERRATA.class);
                         break;
                     default:
                         // If the selected option doesn't match any case, show a message and return

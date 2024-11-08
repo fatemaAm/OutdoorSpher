@@ -13,7 +13,7 @@
 
 
     <TextView
-        android:id="@+id/txtnamerun"
+        android:id="@+id/txtnamv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
@@ -21,7 +21,7 @@
         android:textSize="15sp" />
 
     <ImageView
-        android:id="@+id/imgrun"
+        android:id="@+id/imgvv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
@@ -35,7 +35,7 @@
         android:textSize="15sp" />
 
     <TextView
-        android:id="@+id/txtrun"
+        android:id="@+id/txtv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"

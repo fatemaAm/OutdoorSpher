@@ -48,7 +48,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/txtminfo"
-            app:srcCompat="@drawable/mmm" />
+            app:srcCompat="@drawable/mounting" />
 
         <Spinner
             android:id="@+id/spinner2"
@@ -58,6 +58,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.545"
             app:layout_constraintStart_toStartOf="parent"
+            android:fontFamily="@font/aclonica"
             app:layout_constraintTop_toBottomOf="@+id/imageView6" />
 
         <Button
@@ -66,6 +67,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="36dp"
             android:text="show"
+            android:fontFamily="@font/aclonica"
+            android:textColor="#8BC34A"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/spinner2" />

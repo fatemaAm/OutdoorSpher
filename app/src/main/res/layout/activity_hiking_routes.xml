@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
@@ -25,16 +26,16 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/txtnamerun"
+                android:id="@+id/txtnamv"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="20dp"
                 android:fontFamily="@font/aclonica"
                 android:foregroundGravity="center"
-                android:textSize="16sp" />
+                android:textSize="14sp" />
 
             <ImageView
-                android:id="@+id/imgrun"
+                android:id="@+id/imgvv"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -47,15 +48,15 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="20dp"
                 android:fontFamily="@font/aclonica"
-                android:textSize="16sp" />
+                android:textSize="14sp" />
 
             <TextView
-                android:id="@+id/txtrun"
+                android:id="@+id/txtv"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="20dp"
                 android:fontFamily="@font/aclonica"
-                android:textSize="16sp" />
+                android:textSize="14sp" />
 
         </androidx.appcompat.widget.LinearLayoutCompat>
 

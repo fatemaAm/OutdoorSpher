@@ -30,15 +30,16 @@ public class RUNNING extends AppCompatActivity {
             Information selected = InformationMockUp.getListRun().get(selectedIndex);
 
             // Set data into the views
-            TextView nameTextView = findViewById(R.id.txtnamerun);
-            ImageView imageView = findViewById(R.id.imgrun);
+            TextView nameTextView = findViewById(R.id.txtnamv);
+            ImageView imageView = findViewById(R.id.imgvv);
             TextView descriptionTextView = findViewById(R.id.txtr);
-            TextView adviceTextView = findViewById(R.id.txtrun);
+            TextView adviceTextView = findViewById(R.id.txtv);
 
             nameTextView.setText(selected.getName());
             imageView.setImageResource(selected.getImage());
             descriptionTextView.setText(selected.getInfo());
             adviceTextView.setText(selected.getAdvice());
+
         } else {
             // Handle invalid index cases
             Log.e("RUNNING", "Invalid index: " + selectedIndex);
